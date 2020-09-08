@@ -26,6 +26,7 @@ const encodeStr = str => {
 const textDecoder = new TextDecoder("utf-8")
 const decodeStr = arr => {
   return textDecoder.decode(new Uint8Array(arr));
+
 }
 
 const dictZip = (x, y) => {
